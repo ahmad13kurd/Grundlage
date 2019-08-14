@@ -1,0 +1,257 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+}
+
+.navi{
+    margin: 0;
+    padding: 0;
+    position: fixed;
+    height: 60px;
+    background-color: #30393c;
+    width: 100%;
+}
+
+.navi ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navi ul li{
+    list-style-type: none; 
+    float: left;
+    position: relative;
+}
+
+.navi ul li a {
+    text-decoration: none;
+    text-align: center;
+    width: 150px;
+    display: inline-block;
+    height: 30px;
+    color: white;
+}
+
+.navi ul ul{
+    position: absolute;
+    visibility: hidden;
+}
+
+.navi li:hover ul{
+    visibility: visible;
+}
+
+.navi ul li a:hover{
+  background-color: #ff0055; 
+}
+
+.navi ul ul li{
+    background-color: #30393c;
+    margin-bottom: 5px;
+}
+
+.navi ul ul li a {
+    padding-top: 15px;
+}
+
+.menu-items{
+    text-align: center;
+    padding: 15px 30px;
+    height: 30px;
+    font-size: 23;
+}
+
+.menu-icons{
+    padding: 15px 30px;
+    width: 150px;
+    height: 30px;
+    font-size: 20;
+
+}
+
+/*  ----------------- controling-------------------  */
+
+.menu-items:focus{
+    background-color: #a7043b;
+}
+
+
+@media screen and (max-width:644px) {
+    .navi ul li a {
+        width: 130px;
+    }
+    
+}
+@media screen and (max-width:585px) {
+    .navi ul li a {
+        width: 75px;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .navi ul li a {
+        width: 60px;
+    }
+    
+}
+
+@media(max-width:375px) {
+    .navi{
+        background-color: #30393c ;
+        height: 450px;
+        width: 150;
+    }
+    .navi .works:hover{ 
+        height: 240px;
+        float: left;
+        position: relative;
+        }
+    }
+/*------------Home page------------*/
+
+    #content{
+        padding-top: 60px;
+    }
+
+    #home{
+        width: 100%;
+        height: auto;
+        max-height: 1000px;
+        padding-top: 100px;
+    }
+    #works{
+        width: 100%;
+        height: 700px;
+        padding-top: 75px
+    }
+    #contact{
+        min-height: 550px;
+        width: 100%;
+        height: auto;
+        padding-top: 75px
+    }
+    #content .section:nth-child(1){
+        box-sizing: border-box;
+        box-sizing: inherit;
+        text-align: center;
+        background-image: url("./image/bg.jpg") !important;
+        background-repeat: no-repeat;
+        border: 0;
+    }
+    #content .section:nth-child(2){
+        background-color: #463e3c;
+        color: aqua;
+    }
+    #content .section:nth-child(3){
+            background-color: #212529;
+    }
+    .myImg{
+        border-radius: 100%;
+        height: 250px;
+        width: 250px;
+        float: inherit;
+}
+.myName{
+    color: white;
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: 1050;
+    line-height: 1.8;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    margin: 0 0 1rem 0;
+    font-size: 4rem;
+}
+
+.p1{
+    color: white;
+    margin: 0px 50px 0px 50px;
+    vertical-align: baseline;
+    font: inherit;
+    font-size: 1.3rem;
+    box-sizing: inherit;
+   padding-bottom: 50px;
+}
+
+
+/*------------Contact page------------*/
+
+#works{
+    height: auto;
+}
+
+/*------------Contact page------------*/
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 50%;
+  padding: 10px;
+  height: auto;
+  color: white;
+  font-family: 'Beth Ellen', cursive;
+}
+
+.column div a {
+    color: white;
+}
+.column div a:hover{
+    color: #a5350b;
+}
+
+#row .column:nth-child(1){
+    width: 70%;
+}
+form{
+    padding: 20px;
+    margin: 0;
+}
+
+.inputs-name input{
+    border-radius: 10px;
+    width: 250px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+}
+.inputs-email input{
+    border-radius: 10px;
+    width: 527px;
+    height: 35px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+}
+
+.input-message textarea{
+    border-radius: 20px;
+    width: 527px;
+    height: 150px;
+    margin: 10px;
+    padding: 10px;
+    border: 0;
+}
+.button{
+    text-align: center;
+}
+.button button{
+    background-color: #6c757d;
+    border-radius: 10px;
+    margin: 10px;
+    height: 35px;
+    width: 100px;
+    border: 0;
+}
+button:hover{
+    background-color: #463e3c;
+}
+
+iframe{
+    margin: auto;
+    border: 0ch;
+    border-radius: 20px;
+    
+}

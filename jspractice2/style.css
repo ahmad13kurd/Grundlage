@@ -1,0 +1,41 @@
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+
+.btn{
+    width: 100%;
+    border: 0ch;
+    background-color: rgb(185, 19, 52);
+    font-size: 2rem;
+    font-family: 'Baloo Chettan', cursive;
+    font-weight: 850;
+    padding: 20px;
+    text-align: left;
+    border-radius: 20px;
+    outline: 0ch;
+    cursor: pointer;
+    margin: 10px;
+}
+
+.btn:after {
+    content: "+";
+    float: right;
+    font-weight: bold;
+}
+
+.active:after{
+    content: "-";
+}
+
+.btn:hover{
+    background-color: rgb(241, 6, 53);
+}
+
+.description{
+    padding: 0 20px;
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.6s;
+}
+
